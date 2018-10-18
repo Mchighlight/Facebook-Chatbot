@@ -5,6 +5,7 @@ from datetime import datetime
 
 import requests
 from flask import Flask, request
+import SpeechRecognition
 
 app = Flask(__name__)
 
